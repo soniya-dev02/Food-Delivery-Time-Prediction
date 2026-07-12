@@ -1,0 +1,103 @@
+
+{% extends "base.html" %}
+{% block body %}
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <h1 class="display-3 mb-3 animated slideInDown">Methodology</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a class="text-body" href="/">Home</a></li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Feature Start -->
+
+    <div class="container-fluid bg-light bg-icon py-6">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-3">Methodology</h1>
+                <p>The systematic approach followed to build and evaluate the food delivery time prediction model.</p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- 1 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <i class="fa fa-database fa-4x text-primary mb-4"></i>
+                        <h4 class="mb-3">Data Collection</h4>
+                        <p class="mb-4">
+                            Gathered dataset with key features like distance, traffic, weather, preparation time, and courier experience.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <i class="fa fa-filter fa-4x text-primary mb-4"></i>
+                        <h4 class="mb-3">Data Cleaning</h4>
+                        <p class="mb-4">
+                            Handled missing values using forward fill and mean techniques to ensure dataset consistency.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <i class="fa fa-cogs fa-4x text-primary mb-4"></i>
+                        <h4 class="mb-3">Feature Engineering</h4>
+                        <p class="mb-4">
+                            Converted categorical variables into numerical format using encoding techniques for model training.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <i class="fa fa-random fa-4x text-primary mb-4"></i>
+                        <h4 class="mb-3">Data Splitting</h4>
+                        <p class="mb-4">
+                            Divided dataset into training and testing sets (80/20) to evaluate model performance effectively.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <i class="fa fa-brain fa-4x text-primary mb-4"></i>
+                        <h4 class="mb-3">Model Training</h4>
+                        <p class="mb-4">
+                            Applied regression algorithms like Linear Regression to learn patterns and predict delivery time.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <i class="fa fa-chart-line fa-4x text-primary mb-4"></i>
+                        <h4 class="mb-3">Model Evaluation</h4>
+                        <p class="mb-4">
+                            Evaluated model accuracy using predictions and correlation analysis to ensure reliable results.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    {% endblock body %}

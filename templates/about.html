@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block body %}
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <h1 class="display-3 mb-3 animated slideInDown">About Us</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a class="text-body" href="/">Home</a></li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+   <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                        <img class="img-fluid w-100" src="/static/img/about.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="display-5 mb-4">Accurate Food Delivery Time Prediction Using Machine Learning</h1>
+                    <p class="mb-4">This project uses advanced machine learning algorithms to predict food delivery time based on factors like distance, traffic conditions, weather, and delivery partner experience. It helps improve efficiency and customer satisfaction.</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Predict delivery time based on real-world conditions</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Uses multiple ML models like Linear Regression and Random Forest</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Improves accuracy and reduces delivery uncertainty</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Firm Visit Start -->
+    <div class="container-fluid bg-primary bg-icon mt-5 py-6">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-7 wow fadeIn" data-wow-delay="0.1s">
+                    <h1 class="display-5 text-white mb-3">Explore Our Food Delivery System</h1>
+                    <p class="text-white mb-0">
+                        Discover how our intelligent food delivery prediction system works. 
+                        Using factors like distance, traffic conditions, weather, and preparation time, 
+                        we accurately estimate delivery time to improve customer satisfaction and efficiency. 
+                        Experience faster, smarter, and more reliable food delivery with our system.
+                    </p>
+                </div>
+                <div class="col-md-5 text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <a class="btn btn-lg btn-secondary rounded-pill py-3 px-5" href="/predict">Explore Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Firm Visit End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid bg-light bg-icon my-5 py-6">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-3">Project Features</h1>
+                <p>This system uses machine learning techniques to accurately estimate food delivery time based on multiple real-world factors.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <i class="fa fa-chart-line fa-3x text-primary mb-4"></i>
+                        <h4 class="mb-3">Accurate Predictions</h4>
+                        <p class="mb-4">Uses trained regression models to predict delivery time with high accuracy based on distance, traffic, and other inputs.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <i class="fa fa-cogs fa-3x text-primary mb-4"></i>
+                        <h4 class="mb-3">Multiple Factors Analysis</h4>
+                        <p class="mb-4">Considers weather, traffic level, preparation time, and courier experience to provide realistic predictions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="bg-white text-center h-100 p-4 p-xl-5">
+                        <i class="fa fa-user-check fa-3x text-primary mb-4"></i>
+                        <h4 class="mb-3">User-Friendly System</h4>
+                        <p class="mb-4">Simple interface where users can input details and instantly get estimated delivery time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    {% endblock body %}
