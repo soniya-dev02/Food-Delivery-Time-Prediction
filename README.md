@@ -1,14 +1,14 @@
-# Food Delivery Time Prediction
+## Food Delivery Time Prediction
 
 A machine learning-based web application that predicts the estimated food delivery time based on delivery-related information.
 
-## Project Overview
+### Project Overview
 
 This project uses a Random Forest regression model to predict food delivery time. The trained model is integrated with a Flask web application where users can enter delivery details and receive an estimated delivery time.
 
 The application also uses MySQL for user registration and login management.
 
-## Technologies Used
+### Technologies Used
 
 - Python
 - Flask
@@ -21,7 +21,7 @@ The application also uses MySQL for user registration and login management.
 - HTML
 - CSS
 
-## Features
+### Features
 
 - Food delivery time prediction
 - Random Forest regression model
@@ -38,7 +38,7 @@ The application also uses MySQL for user registration and login management.
   - Time of Day
   - Vehicle Type
 
-## Machine Learning
+### Machine Learning
 
 The project uses a Random Forest regression model to predict estimated food delivery time.
 
@@ -60,7 +60,7 @@ The workflow includes:
 - Model evaluation
 - Prediction
 
-## Web Application
+### Web Application
 
 The Flask application provides the following pages:
 
@@ -74,7 +74,7 @@ The Flask application provides the following pages:
 
 Users need to log in before accessing the prediction page.
 
-## Project Structure
+### Project Structure
 
 ```text
 Food-Delivery-Time-Prediction/
